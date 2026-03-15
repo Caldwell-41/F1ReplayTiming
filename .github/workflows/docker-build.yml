@@ -25,5 +25,5 @@ jobs:
           context: .
           push: true
           tags: |
-            <your-dockerhub-user>/f1replaytiming:latest
-            <your-dockerhub-user>/f1replaytiming:${{ github.sha }}
+            caldwell41/f1replaytiming:latest
+            caldwell41/f1replaytiming:${{ github.sha }}
